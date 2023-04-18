@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(236, 235, 235);
+    font-size: 18px;
+    font-family: Arial;
+}
+nav{
+
+}
+#logo{
+    width: 300px;
+    font-size: 30px;
+}
+#robot{
+    color: #C5110B;
+    font-family: 'Damion', cursive;
+}
+#juice{
+    color: #000000;
+    font-family: 'Damion', cursive;
+}
+#tagline{
+    font-size: 20px;
+    color: #333333;
+}
+.SectionHeader{
+    font-family: 'Iceberg', cursive;
+    color: #575859;
+    font-size: 24px;
+    font-weight: bold;
+}
+footer{
+    background-color: red;
+}
