@@ -1,0 +1,328 @@
+@media screen and (max-width: 450px){ /*The styles CSS code for the mobile layout*/
+    body{/*sets the base styles for the web page*/
+        background-color: rgb(236, 235, 235);
+        font-size: 18px;
+        font-family: Arial;
+    }
+    #logo{/*sets the font size for the logo*/
+        width: 350px;
+        font-size: 30px;
+    }
+    #robot{/*sets the colour and font for robot*/
+        color: #C5110B;
+        font-family: 'Damion', cursive;
+    }
+    #juice{/*sets the colour and font for juice*/
+        color: #000000;
+        font-family: 'Damion', cursive;
+    }
+    #tagline{/*sets the colour and font sze of the tagline*/
+        font-size: 13px;
+        color: #333333;
+    }
+    .SectionHeader{/*sets the fontstyles and colour of the section headers*/
+        font-family: 'Iceberg', cursive;
+        color: #575859;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    nav{/*styles for main nav element*/
+        text-align: center;
+    }
+    nav a{/*sets the colour for the nav links and removes text decoration*/
+        color:#333333;
+        text-decoration: none;
+    }
+    #home{/*sets the border styles and the colour for the home part of the navigation*/
+        border: solid black 3px;
+        background-color: red;
+    }
+    #home a{/*sets the colour of the a link for home*/
+        color:white;
+    }
+    #products{/*sets border styles and background colour for products*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #protect{/*sets border styles and background colour for protect*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #stocklist{/*sets border styles and background colour for stocklist*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #events{/*sets border styles and background colour for events*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #reviews{/*sets border styles and background colour for reviews*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #banner h2{/*sets the styles for the heading in the banner*/
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Iceberg', cursive;
+        color: #575859;
+    }
+    #images{/*sets the border styles for the images section*/
+        border-top: solid grey 5px;
+        border-bottom: solid grey 5px;
+    }
+    .newsHeader{/*sets the font styles for the news article headings*/
+        font-family: 'Iceberg', cursive;
+        color: #575859;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .date{/*sets the colour for the date*/
+        color:#C5110B;
+    }
+    #poll{/*sets the background colour of the poll*/
+        background-color:white;
+    }
+    #question{/*sets the text colour for the question*/
+        color:#C5110B;
+    }
+    #sub{/*sets the colours and background styles for the sub section*/
+        color:#C5110B;
+        background-color: white;
+        border-top:solid 2px;
+        border-color:black;
+    }
+    #sub a{/*sets the colour for the a links in the sub section*/
+        color:#C5110B;
+    }
+    footer{/*sets background colour of footer*/
+        background-color: #C5110B;
+    }
+    #product{/*sets border for product section*/
+        border-bottom: solid 3px black;
+    }
+    #prod1{/*sets border styles for prod1*/
+        border:solid 3px #C5110B;
+    }
+    #prod2{/*sets border styles for prod2*/
+        border:solid 3px #C5110B;
+    }
+    #prod3{/*sets border styles for prod3*/
+        border:solid 3px #C5110B;
+    }
+    #price{/*sets the colour and font styles for the price*/
+        color:#C5110B;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #size{/*sets border radius and font styles for the size input*/
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #form button{/*sets the colour and fonts styles for the form button*/
+        background-color: #C5110B;
+        color:white;
+        font-size:20px;
+        font-weight: bold;
+    }
+    #quantity{/*sets border radius and font styles for the quantity input*/
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #similarProduct{/*sets border styles for similar product section*/
+        border-bottom: solid 3px black;
+    }
+    #Reviews h3{/*sets font styles for the reviews headings*/
+        font-size: 25px;
+        font-family: 'Iceberg', cursive;
+    }
+    #Reviews span{/*sets colour for the span elements of reviews*/
+        color: #C5110B;
+    }
+    .nickname{/*sets font styles for the nicknames*/
+        font-size: 18px;;
+    }
+    #Reviews article{/*sets border styles for the articles in the reviews section*/
+        border-top: solid 3px grey;
+        border-bottom: solid 2px grey;
+    }
+    #Reviews button{/*sets the styles for the read all reviews button*/
+        background-color: #C5110B;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 12px;
+    }
+    .result{/*sets font styles for result class*/
+        font-size: 25px;
+    }
+    .hide{
+        display:none;
+    }
+}
+@media screen and (min-width: 1800px){ /*The styles CSS code for the Desktop layout*/
+    body{/*sets the base styles for the web page*/
+        background-color: rgb(236, 235, 235);
+        font-size: 18px;
+        font-family: Arial;
+    }
+    #logo{/*sets the font size for the logo*/
+        width: 300px;
+        font-size: 50px;
+    }
+    #robot{/*sets the colour and font for robot*/
+        color: #C5110B;
+        font-family: 'Damion', cursive;
+    }
+    #juice{/*sets the colour and font for juice*/
+        color: #000000;
+        font-family: 'Damion', cursive;
+    }
+    #tagline{/*sets the colour and font sze of the tagline*/
+        font-size: 18px;
+        color: #333333;
+    }
+    .SectionHeader{/*sets the fontstyles and colour of the section headers*/
+        font-family: 'Iceberg', cursive;
+        color: #575859;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    nav{/*styles for main nav element*/
+        text-align: center;
+    }
+    nav a{/*sets the colour for the nav links and removes text decoration*/
+        color:#333333;
+        text-decoration: none;
+    }
+    #home{/*sets the border styles and the colour for the home part of the navigation*/
+        border: solid black 3px;
+        background-color: red;
+    }
+    #home a{/*sets the colour of the a link for home*/
+        color:white;
+    }
+    #products{/*sets border styles and background colour for products*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #protect{/*sets border styles and background colour for protect*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #stocklist{/*sets border styles and background colour for stocklist*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #events{/*sets border styles and background colour for events*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #reviews{/*sets border styles and background colour for reviews*/
+        border: solid black 3px;
+        background-color: white;
+    }
+    #banner h2{/*sets the styles for the heading in the banner*/
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Iceberg', cursive;
+        color: #575859;
+    }
+    #images{/*sets the border styles for the images section*/
+        border-top: solid grey 5px;
+        border-bottom: solid grey 5px;
+    }
+    .newsHeader{/*sets the font styles for the news article headings*/
+        font-family: 'Iceberg', cursive;
+        color: #575859;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .date{/*sets the colour for the date*/
+        color:#C5110B;
+    }
+    #poll{/*sets the background colour of the poll*/
+        background-color:white;
+    }
+    #question{/*sets the text colour for the question*/
+        color:#C5110B;
+    }
+    #sub{/*sets the colours and background styles for the sub section*/
+        color:#C5110B;
+        background-color: white;
+        border-top:solid 3px black;
+    }
+    #sub a{/*sets the colour for the a links in the sub section*/
+        color:#C5110B;
+    }
+    footer{/*sets background colour of footer*/
+        background-color: #C5110B;
+    }
+    #product{/*sets border for product section*/
+        border-bottom: solid 3px black;
+    }
+    #prod1{/*sets border styles for prod1*/
+        border:solid 3px #C5110B;
+    }
+    #prod2{/*sets border styles for prod2*/
+        border:solid 3px #C5110B;
+    }
+    #prod3{/*sets border styles for prod3*/
+        border:solid 3px #C5110B;
+    }
+    #price{/*sets the colour and font styles for the price*/
+        color:#C5110B;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #size{/*sets border radius and font styles for the size input*/
+        height: 40px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #form button{/*sets the colour and fonts styles for the form button*/
+        background-color: #C5110B;
+        color:white;
+        font-size:20px;
+        font-weight: bold;
+    }
+    #quantity{/*sets border radius and font styles for the quantity input*/
+        height: 40px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #similarProduct{/*sets border styles for similar product section*/
+        border-bottom: solid 3px black;
+    }
+    #Reviews h3{/*sets font styles for the reviews headings*/
+        font-size: 25px;
+        font-family: 'Iceberg', cursive;
+    }
+    #Reviews span{/*sets colour for the span elements of reviews*/
+        color: #C5110B;
+    }
+    .nickname{/*sets font styles for the nicknames*/
+        font-size: 18px;;
+    }
+    #Reviews article{/*sets border styles for the articles in the reviews section*/
+        border-top: solid 3px grey;
+        border-bottom: solid 2px grey;
+        display: flex;
+    }
+    #Reviews button{/*sets the styles for the read all reviews button*/
+        background-color: #C5110B;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 12px;
+    }
+    .result{/*sets font styles for result class*/
+        font-size: 25px;
+    }
+    .hide{
+        display:none;
+    }
+}
