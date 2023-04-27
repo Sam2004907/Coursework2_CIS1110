@@ -1,0 +1,639 @@
+@media screen and (max-width: 450px){ /*The Grid CSS code for the mobile layout*/
+    /*Product page and Index page grid CSS below*/
+    .container{ /*Sets the grid layout for the webpage*/
+        display: grid;
+        grid-template-columns: 50px 175px 175px 50px;
+        grid-template-rows: 175px 350px 775px 900px 600px 500px 300px;
+    }
+    header{ /*declares the layout for the header*/
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:1;
+    }
+    /*Index page grid CSS below*/
+    #logo{/*Creates the layout for the logo by positioning the logo in the correct spot*/
+        position: absolute;
+        top:-50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #robot{/*Sets the margins for robot*/
+        margin-right:10px;
+    }
+    #tagline{ /*Sets position and dimensions of the tagline of the logo*/
+        height: 25px;
+        width: 150px;
+        position: relative;
+        top: 35px;
+        left: 150px;
+    }
+    nav{/*Creates the layout for the navigation bar*/
+        width: 350px;
+        height: 25px;
+        position: relative;
+        top:20px;
+    }
+    #home{/*Positions the home section of the nav bar*/
+        height:25px;
+        width: 173.5px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #products{/*Positions the products section of the nav bar*/
+        height:25px;
+        width: 173.5px;
+        position: relative;
+        top: -49px;
+        left: 175px;
+    }
+    #protect{/*Positions the protect section of the nav bar*/
+        height:25px;
+        width: 173.5px;
+        position: relative;
+        top: -70px;
+        left: 0px;
+    }
+    #stocklist{/*Positions the stocklist section of the nav bar*/
+        height:25px;
+        width: 173.5px;
+        position: relative;
+        top: -119px;
+        left: 175px;
+    }
+    #events{/*Positions events section of the nav bar*/
+        height:25px;
+        width: 173.5px;
+        position: relative;
+        top: -140px;
+        left: 0px;
+    }
+    #reviews{/*Positions reviews section of the nav bar*/
+        height:25px;
+        width: 173.5px;
+        position: relative;
+        top: -189px;
+        left: 175px;
+    }
+    #banner{/*Sets the position of the banner section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+    }
+    #banner img{/*Sets the size of the banner image*/
+        width:350px;
+    }
+    #banner h2{/*Sets the size of the banner header*/
+        width:350px;
+    }
+    #images{/*Sets the position of the images section in the correct grid and column*/
+        grid-column-start: 2;
+        grid-row-start: 3;
+        display:flex;
+        justify-content:flex-start;
+        width: 350px;
+        height:770px;
+    }
+    #images section{/*Sets the size of the container for the four images*/
+        width: 175px;
+        height: 350px;
+        margin-top: 25px;
+    }
+    #images img{/*Sets the size of the images*/
+        width: 160px;
+    }
+    #bikeOil{/*sets the margins for the bikeOil image*/
+        margin-left:0px;
+        margin-right:15px;
+    }
+    #wetLube{/*sets the margins and positions for the bikeOil image*/
+        margin-left:0px;
+        margin-right:15px;
+        position:relative;
+        top:375px;
+        left:-335px;
+    }
+    #productReviews{/*sets the positions for the bikeOil image*/
+        position:relative;
+        top:375px;
+        left:-335px;
+    }
+    #news{/*Sets the position of the news section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end: 3;
+        grid-row-start:4;
+        width:350px;
+    }
+    .date{/*sets the position of the date in the news articles*/
+        position: relative;
+        left:200px;
+    }
+    #poll{/*Sets the position of the poll section in the correct grid and column*/
+        grid-column-start:2;
+        grid-row-start:5;
+        height:600px;
+        width: 350px;
+        position: relative;
+    }
+    #poll input{/*sets the margins for the radio buttons on the poll*/
+        margin-left:125px;
+        margin-top:25px;
+    }
+    /*Product page and Index page grid CSS below*/
+    #sub{/*Sets the position of the sub section in the correct grid and column*/
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start:6;
+        display:flex;
+        justify-content: flex-start;
+    }
+    #latest{/*Sets the position of the latest section in the correct grid and column within the sub section*/
+        display:flex;
+        grid-column-start: 2;
+        margin-left: -50px;
+        margin-top:0px;
+    }
+    #latest img{/*sets the margins and size for the cycling magazine image*/
+        height: 200px;
+        margin:100px;
+        margin-top:25px;
+    }
+    #latest article{/*sets the margins and size for the article in the latest section*/
+        width:175px;
+        margin-left:-75px;
+    }
+    #links{/*Sets the position of the links section in the correct grid and column within the sub section*/
+        grid-column-start:2;
+        width:350px;
+        margin-left: 0px;
+        margin-top:50px;
+        position:relative;
+        top:200px;
+        left:-350px;
+    }
+    footer{/*Sets the position of the footer in the correct grid and column*/
+        grid-column-start:1;
+        grid-column-end: 5;
+        grid-row-start:7;
+    }
+    #footer p{/*sets the margins and size for the footer*/
+        margin-left:50px;
+        width:300px;
+    }
+    /*Product page grid CSS below*/
+    .move{/*CSS class that is added when review.js is ran to move the position of the sub section and footer*/
+        position:relative;
+        top:4850px;
+    }
+    #product{/*Sets the position of the product section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end:5;
+        grid-row-start: 2;
+        height: 500px;
+        width:350px;
+    }
+    #prod1{/*sets the margins and size for prod-thumb1.jpg*/
+        height:45px;
+        margin-right: 20px;
+    }
+    #prod2{/*sets the margins and size for prod-thumb2.jpg*/
+        height:45px;
+        margin-right: 20px;
+    }
+    #prod3{/*sets the margins and size for prod-thumb3.jpg*/
+        height:45px;
+        margin-right: 20px;
+    }
+    #main{/*sets the margins and size for robotjuicebikeoil.jpg*/
+        width:350px;
+        height:200px;
+    }
+    #form{/*sets the position and size for the form on the product page*/
+        width: 350px;
+        height: 75px;
+        position: relative;
+        top:-20px;
+    }
+    #form select{/*sets the margins, position and size for the select*/
+        width: 100px;
+        height: 25px;
+        margin: 5px;
+        position: relative;
+        left: 90px;
+        top: -95px;
+    }
+    #form button{/*sets the position and size for the button on the form*/
+        width:175px;
+        height:25px;
+        position: relative;
+        top: -95px;
+        left: 125px;
+    }
+    #price{/*sets the position for the price*/
+        position:relative;
+        top:-20px;
+    }
+    #find{/*sets the position for the find nearest stocklist*/
+        display: flex;
+        justify-content: right;
+        position:relative;
+        top: -105px;
+    }
+    #share{/*sets the position for the share*/
+        display: flex;
+        position: relative;
+        top:-115px;
+        left: 175px;
+    }
+    #form img{/*sets the position and size for 3 images next to share*/
+        position:relative;
+        width:20px;
+        top: -155px;
+        left:275px;
+    }
+    #info{/*sets the position for the find information paragaph*/
+        position:relative;
+        top:-175px;
+    }
+    #similarProduct{/*Sets the position of the similar products section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end:3;
+        grid-row-start: 2;
+        width: 350px;
+        height: 300px;
+        position: relative;
+        top: 500px;
+    }
+    #similarProduct img{/*sets the size for the find nearest stocklist*/
+        width: 110px;
+    }
+    #Reviews{/*Sets the position of the reviews section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end:3;
+        grid-row-start:4;
+        width: 350px;
+        position:relative;
+        top: -325px;
+    }
+    #topStar{/*sets the position for the find line of stars next to the header for the Reviews section*/
+        position:relative;
+        top: -50px;
+        left: 225px;
+    }
+    #Reviews img{/*sets the size and margin of the review icons*/
+        height: 75px;
+        margin:5px;
+    }
+    .opinion{ /*sets the position and height for opinion class*/
+        height: 325px;
+        position:relative;
+        top: -50px;
+    }
+    .opinion h3{/*sets the position and size for headers in the reviews*/
+        position: relative;
+        top: -110px;
+        left: 100px;
+        height: 40px;
+    }
+    .nickname{/*sets the position and size for the usernames/nicknames in the review*/
+        position: relative;
+        top: -150px;
+        left: 100px;
+        width: 130px;
+        height: 50px;
+    }
+    .long{/*sets the position and size for actual review given by the user*/
+        width: 350px;
+        position: relative;
+        top: -160px;
+    }
+    #Reviews button{/*sets the position and size for the button in the review section*/
+        height: 50px;
+        width: 300px;
+        position: relative;
+        top: -25px;
+        left: 25px;
+    }
+}
+@media screen and (min-width: 1800px){ /*The Grid CSS code for the Desktop layout*/
+    /*Product page and Index page grid CSS below*/
+    .container{/*Sets the grid layout for the webpage*/
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px 300px 300px;
+        grid-template-rows: 200px 800px 400px 800px 350px 200px;
+    }
+    header{/*declares the layout for the header*/
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start:1;
+    }
+    /*Index page grid CSS below*/
+    #logo{/*Creates the layout for the logo by positioning the logo in the correct spot*/
+        position: absolute;
+        top:-75px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #robot{/*Sets the margins for robot*/
+        margin-right:25px;
+    }
+    #tagline{/*Sets position and dimensions of the tagline of the logo*/
+        height: 25px;
+        width: 400px;
+        position: relative;
+        top: 75px;
+        left: 250px;
+    }
+    nav{/*Creates the layout for the navigation bar*/
+        width: 1200px;
+        height: 50px;
+        position: relative;
+        top:75px;
+    }
+    #home{/*Positions the home section of the nav bar*/
+        height:45px;
+        width: 200px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #products{/*Positions the products section of the nav bar*/
+        height:45px;
+        width: 200px;
+        position: relative;
+        top: -69px;
+        left: 200px;
+    }
+    #protect{/*Positions the protect section of the nav bar*/
+        height:45px;
+        width: 200px;
+        position: relative;
+        top: -138px;
+        left: 400px;
+    }
+    #stocklist{/*Positions the stocklist section of the nav bar*/
+        height:45px;
+        width: 200px;
+        position: relative;
+        top: -207px;
+        left: 600px;
+    }
+    #events{/*Positions events section of the nav bar*/
+        height:45px;
+        width: 200px;
+        position: relative;
+        top: -276px;
+        left: 800px;
+    }
+    #reviews{/*Positions reviews section of the nav bar*/
+        width: 195px;
+        height:45px;
+        position: relative;
+        top: -345px;
+        left: 1000px;
+    }
+    #banner{/*Sets the position of the banner section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        width: 1200px;
+    }
+    #banner img{/*Sets the size of the banner image*/
+        width:1200px;
+    }
+    #images{/*Sets the position of the images section in the correct grid and column*/
+        grid-column-start: 2;
+        grid-row-start: 3;
+        display:flex;
+        justify-content:flex-start;
+        width: 1200px;
+        height:390px;
+    }
+    #images section{/*Sets the size of the container for the four images*/
+        width: 400px;
+        margin-top: 25px;
+    }
+    #bikeOil{/*sets the margins for the Bike Oil image*/
+        margin-left:0px;
+        margin-right:80px;
+    }
+    #dryLube{/*sets the margins for the Dry Lubricant image*/
+        margin-left:0px;
+        margin-right:80px;
+    }
+    #wetLube{/*sets the positions for the Wet Lubricant image*/
+        margin-left:0px;
+        margin-right:80px;
+    }
+    #productReviews{/*sets the positions for the Product Reviews image*/
+        margin-left:0px;
+        margin-right:80px;
+    }
+    #news{/*Sets the position of the news section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end: 5;
+        grid-row-start:4;
+        width:850px;
+        position:relative;
+        top: 50px;
+    }
+    .date{/*Sets the position of the date in the news articles*/
+        position: relative;
+        left:700px;
+    }
+    #poll{/*Sets the size and the position of the poll section in the correct grid and column*/
+        grid-column-start:5;
+        grid-row-start:4;
+        height:625px;
+        position:relative;
+        top: 50px;
+    }
+    #poll input{/*sets the margins for the radio buttons on the poll*/
+        margin-left:100px;
+        margin-top:25px;
+    }
+    /*Product page and Index page grid CSS below*/
+    #sub{/*Sets the position of the sub section in the correct grid and column*/
+        grid-column-start:1;
+        grid-column-end: 7;
+        grid-row-start:5;
+        display:flex;
+        justify-content: flex-start;
+    }
+    #latest{/*Sets the position of the latest section in the correct grid and column within the sub section*/
+        display:flex;
+        grid-column-start: 2;
+        margin-left: 200px;
+        margin-top:50px;
+    }
+    #latest img{/*sets the margins and size for the cycling magazine image*/
+        height: 200px;
+        margin:100px;
+        margin-top:25px;
+    }
+    #latest article{/*sets the margins and size for the article in the latest section*/
+        width:300px;
+        margin-left:55px;
+    }
+    #links{/*Sets the position of the links section in the correct grid and column within the sub section*/
+        grid-column-start:4;
+        width:250px;
+        margin-left: 300px;
+        margin-top:50px;
+    }
+    footer{/*Sets the position of the footer in the correct grid and column*/
+        grid-column-start:1;
+        grid-column-end: 7;
+        grid-row-start:6;
+    }
+    footer p{/*sets the margins and size for the footer*/
+        margin-left:300px;
+    }
+    #siteMap{/*sets the position for the sitMap details in the footer*/
+        position: relative;
+        top: -45px;
+        left: 900px;
+    }
+    #copyright{/*sets the position for the copyright in the footer*/
+        position: relative;
+        top: -90px;
+        left: 900px;
+    }
+    #contact{/*sets the position for the contact details in the footer*/
+        position: relative;
+        top: -45px;
+    }
+    /*Product page grid CSS below*/
+    .move{/*CSS class that is added when review.js is ran to move the position of the sub section and footer*/
+        position:relative;
+        top:3000px;
+    }
+    #product{/*Sets the position of the product section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end:5;
+        grid-row-start: 2;
+        height: 500px;
+        width:1200px;
+    }
+    #prod1{/*sets the margins and size for prod-thumb1.jpg*/
+        height:75px;
+        display:flex;
+        margin-bottom: 20px;
+    }
+    #prod2{/*sets the margins and size for prod-thumb2.jpg*/
+        height:75px;
+        display:flex;
+        margin-bottom: 20px;
+    }
+    #prod3{/*sets the margins and size for robotjuicebikeoil.jpg*/
+        height:75px;
+        display:flex;
+        margin-bottom: 20px;
+    }
+    #main{/*sets the margins and size for robotjuicebikeoil.jpg*/
+        width:650px;
+        position:relative;
+        top: -295px;
+        left: 125px;
+    }
+    #form{/*sets the position and size for the form on the product page*/
+        width: 400px;
+        position:relative;
+        top:-750px;
+        left: 800px;
+    }
+    #form select{/*sets the margins, position and size for the select*/
+        width: 170px;
+        margin: 5px;
+        position: relative;
+        left: 40px;
+        top: -25px;
+    }
+    #form button{/*sets the position and size for the button on the form*/
+        width:350px;
+        height:40px;
+        position: relative;
+        left: 50px;
+    }
+    #price{/*sets the position for the price*/
+        position:relative;
+        top:-20px;
+    }
+    #find{/*sets the position for the find nearest stocklist*/
+        display: flex;
+        justify-content: right;
+    }
+    #share{/*sets the position for the share*/
+        display: flex;
+       position: relative;
+       left: 250px;
+    }
+    #form img{/*sets the position and size for 3 images next to share*/
+        position:relative;
+        width:20px;
+        top: -40px;
+        left:330px;
+    }
+    #info{/*sets the position for the find information paragaph*/
+        position:relative;
+        top:-45px;
+    }
+    #similarProduct{/*Sets the position of the similar products section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end:5;
+        grid-row-start: 2;
+        width: 1200px;
+        height: 300px;
+        position: relative;
+        top: 500px;
+    }
+    #similarProduct img{/*sets the size and margin for the find nearest stocklist*/
+        width: 175px;
+        margin:10px;
+    }
+    #Reviews{/*Sets the position of the reviews section in the correct grid and column*/
+        grid-column-start:2;
+        grid-column-end:5;
+        grid-row-start:3;
+        width: 1200px;
+    }
+    #topStar{/*sets the position for the find line of stars next to the header for the Reviews section*/
+        position:relative;
+        top: -50px;
+        left: 225px;
+    }
+    #Reviews img{/*sets the size and margin of the review icons*/
+        height: 100px;
+        margin:50px;
+    }
+    .opinion{/*sets the position and height for opinion class*/
+        height: 200px;
+        position:relative;
+        top: -50px;
+    }
+    .opinion h3{/*sets the position and size for headers in the reviews*/
+        position: relative;
+        top: 30px;
+        height: 40px;
+    }
+    .nickname{/*sets the position and size for the usernames/nicknames in the review*/
+        position: relative;
+        top: 75px;
+        left: -75px;
+        width: 150px;
+        height: 50px;
+    }
+    .long{/*sets the position and size for actual review given by the user*/
+        margin: 25px;
+        width: 750px;
+        position: relative;
+        top: 20px;
+    }
+    #Reviews button{/*sets the position and size for the button in the review section*/
+        height: 50px;
+        width: 300px;
+        position: relative;
+        top: -30px;
+        left: 450px;
+    }
+}

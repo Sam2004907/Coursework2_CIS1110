@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <!--creates head element and stores all relevant links and metadata-->
+    <head>
+        <title>Product page</title>
+        <meta charset="UTF-8">
+        <link href="styles/style.css" rel="stylesheet">
+        <link href="styles/grid.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Damion&family=Iceberg&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/reviews.js"></script>
+    </head>
+    <!--creates the body for the webpage-->
+    <body class="container">
+        <!--creates the header that stores the logo elements and naviagation elements-->
+        <header>
+            <div id="logo">
+                <h1 id="robot"> Robot </h1>
+                <h1 id="juice"> Juice </h1>
+            </div>
+            <p id="tagline">fictitious cycle lubricants</p>
+            <!--navigation contains 6 elements with 2 having links to other pages-->
+            <nav>
+                <p id="home"><a href="index.html">Home</a></p>
+                <p id="products"><a href="product.html">Products</a></p>
+                <p id="protect"><a href="">Protect</a></p>
+                <p id="stocklist"><a href="">Stocklist's</a></p>
+                <p id="events"><a href="">Events</a></p>
+                <p id="reviews"><a href="">Reviews</a></p>
+            </nav>
+        </header>
+        <!--creates product section that has 7 images and a form-->
+        <section id="product">
+            <h6 class="hide">product</h6>
+            <img src="images/prod-thumb1.jpg" alt="Product1" id="prod1"/>
+            <img src="images/prod-thumb2.jpg" alt="Product2" id="prod2"/>
+            <img src="images/prod-thumb3.jpg" alt="Product3" id="prod3"/>
+            <img src="images/robotjuicebikeoil.jpg" alt="robotJuiceBikeOil" id="main"/>
+            <!--creates form section that has no functionality at the moment-->
+            <section id="form">
+                <h2 class="SectionHeader">Bike Oil</h2>
+                <p id="price">£99.99</p>
+                <form>
+                    <select id="size" name="size">
+                        <option value="size">Size</option>
+                    </select>
+                    <select id="quantity" name="qty">
+                        <option value="qty">Qty</option>
+                    </select>
+                    <button>BUY NOW</button>
+                </form>
+                <p id="find">FIND NEAREST STOCKLIST</p>
+                <p id="share">SHARE</p>
+                <img src="images/facebook.jpg" alt="facebook"/>
+                <img src="images/twitter.jpg" alt="twitter"/>
+                <img src="images/email.jpg" alt="email"/>
+                <p id="info">Robot Juice bike oil for bicycles stops rust and other corrosion from starting. Applied to already corroding metals it breaks down the corrosion and starts preventing it from building up and protects from the point of contact.</p>
+            </section>
+        </section>
+        <!--creates similar product section that has 6 images-->
+        <section id="similarProduct">
+            <h2 class="SectionHeader">Similar Products</h2>
+            <img src="images/simprod.jpg" alt="similarProduct1"/>
+            <img src="images/simprod.jpg" alt="similarProduct2"/>
+            <img src="images/simprod.jpg" alt="similarProduct3"/>
+            <img src="images/simprod.jpg" alt="similarProduct4"/>
+            <img src="images/simprod.jpg" alt="similarProduct5"/>
+            <img src="images/simprod.jpg" alt="similarProduct6"/>
+        </section>
+        <!--creates reviews section that shows 5 reviews but has a button that accesses external api that adds more when pressed-->
+        <section id="Reviews">
+            <h2 class="SectionHeader">Product Reviews</h2>
+            <h3 id="topStar"><span>*****</span></h3>
+            <!--each review section is contained in an article with the class opinion-->
+            <article class="opinion">
+                <img src="images/reviewicon1.jpg" alt="review"/>
+                <!--spans contain the coloured stars to show star rating-->
+                <h3><span>*****</span></h3>
+                <p class="nickname">Great Greace!!</p>
+                <p class="long">******** Generic Review ******************** Generic Review *************************************** Generic Review *************************** Generic Review *************************************** Generic Review ***************************</p>
+            </article>
+            <article class="opinion">
+                <img src="images/reviewicon1.jpg" alt="review"/>
+                <h3><span>***</span>**</h3>
+                <p class="nickname">Great Greace!!</p>
+                <p class="long">******** Generic Review ******************** Generic Review *************************************** Generic Review *************************** Generic Review *************************************** Generic Review ***************************</p>
+            </article>
+            <article class="opinion">
+                <img src="images/reviewicon1.jpg" alt="review"/>
+                <h3><span>****</span>*</h3>
+                <p class="nickname">Great Greace!!</p>
+                <p class="long">******** Generic Review ******************** Generic Review *************************************** Generic Review *************************** Generic Review *************************************** Generic Review ***************************</p>
+            </article>
+            <article class="opinion">
+                <img src="images/reviewicon2.jpg" alt="review"/>
+                <h3><span>*****</span></h3>
+                <p class="nickname">This Juice just keeps me going..</p>
+                <p class="long">******** Generic Review ******************** Generic Review *************************************** Generic Review *************************** Generic Review *************************************** Generic Review ***************************</p>
+            </article>
+            <article class="opinion">
+                <img src="images/reviewicon1.jpg" alt="review"/>
+                <h3><span>*****</span></h3>
+                <p class="nickname">Great Greace!!</p>
+                <p class="long">******** Generic Review ******************** Generic Review *************************************** Generic Review *************************** Generic Review *************************************** Generic Review ***************************</p>
+            </article>
+            <!--button for running reviews.js to load the remaining reviews-->
+            <button>READ ALL REVIEWS</button>
+        </section>
+        <!--creates sub section that has an image a paragraph with headiing and a links section-->
+        <section id="sub">
+            <h6 class="hide">Sub</h6>
+            <section id="latest">
+                <h6 class="hide">Latest</h6>
+                <img src="images/cyclemagazine.jpg" alt="Cycle magazine"/>
+                <article>
+                    <h2>Latest Reviews</h2>
+                    <p>Cycling magazine has given Robot Juice a 5 star rating in its latest reviews of dry lubricants. Robot Juice Dry Lube was rated the highest out of over 40 top brand dry lubs.</p>
+                </article>
+            </section>
+            <section id="links">
+                <h2>Links</h2>
+                <p><a href="https://www.edgehill.ac.uk/">Edge Hill University</a></p>
+                <p><a href="">Dave Walsh</a></p>
+                <p><a href="https://twitter.com/walsh_d">https://twitter.com/walsh_d</a></p>
+                <p><a href="">CIS1110 - Web Design and Development module</a></p>
+            </section>
+        </section>
+        <!--crreates footer section with 4 paragraphs to contain information-->
+        <footer id="footer" >
+            <p id="address">Robot Juice Fictitious Products Not Ltd., Unit 9<sup>3</sup>&frasl;<sub>4</sub>, Privet Drive, Little Whingeing, Surrey DN18 5RP</p>
+            <p id="siteMap">Contact Us | Privacy | Terms & Conditions | Accessibility</p>
+            <p id="contact">Telephone: +44(0)1695 657648. Email: walshd@edgehill.ac.uk</p>
+            <p id="copyright">Copyright <span>&copy;</span> 2018 Dave Walsh. Design by Dave Walsh</p>
+        </footer>
+    </body>
+</html>
